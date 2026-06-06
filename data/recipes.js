@@ -1,0 +1,98 @@
+export const recipes = [
+  {
+    id: 1,
+    title: 'Chicken MOMO',
+    description: 'Steamed dumplings filled with spiced minced chicken, served with spicy tomato chutney.',
+    category: 'Nepali',
+    time: '30 min',
+    servings: 2,
+    rating: 4.8,
+    image: 'https://png.pngtree.com/png-clipart/20250206/original/pngtree-traditional-newari-momos-on-white-background-png-image_20372781.png',
+    ingredients: ['250g minced chicken', '1 cup all-purpose flour', '1/2 cup finely chopped onion', '2 cloves garlic, minced', '1 inch ginger, grated', '1 tbsp soy sauce', 'Salt to taste'],
+    fullInstructions: '1. Prepare the dough by mixing flour and water, then let it rest for 15 mins.\n2. Mix minced chicken with onion, garlic, ginger, soy sauce, and salt to make the filling.\n3. Roll small portions of dough into circles, place a spoonful of filling in the center, and fold the edges to seal.\n4. Steam the momos for 10-12 minutes until cooked.\n5. Serve hot with spicy tomato chutney.'
+  },
+  {
+    id: 2,
+    title: 'Chowmein',
+    description: 'Stir-fried noodles tossed with fresh vegetables, soy sauce, and sesame oil.',
+    category: 'Healthy',
+    time: '15 min',
+    servings: 4,
+    rating: 4.5,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQULVtpTnaXTqiSmumVTu-e0ZYGSaZGsmmjHw&s',
+    ingredients: ['200g egg noodles', '1 cup sliced cabbage', '1/2 cup julienned carrots', '1/2 cup sliced bell peppers', '2 tbsp soy sauce', '1 tbsp sesame oil', '2 cloves garlic, minced'],
+    fullInstructions: '1. Boil the noodles according to package instructions, drain and set aside.\n2. Heat sesame oil in a wok or large pan over high heat.\n3. Add minced garlic and sauté for 30 seconds.\n4. Add cabbage, carrots, and bell peppers and stir-fry for 2-3 minutes.\n5. Toss in the cooked noodles and soy sauce, and stir-fry for another 2 minutes until well combined.\n6. Serve hot.'
+  },
+  {
+    id: 3,
+    title: 'Butter Chicken',
+    description: 'Rich, creamy tomato curry with tender chicken pieces and warm spices.',
+    category: 'Indian',
+    time: '45 min',
+    servings: 4,
+    rating: 4.9,
+    image: 'https://nickskitchen.com/wp-content/uploads/2025/08/NK_Butter-Ckn_1-scaled.jpg',
+    ingredients: ['500g boneless chicken', '1 cup tomato puree', '1/2 cup heavy cream', '2 tbsp butter', '1 tbsp garam masala', '1 tbsp ginger garlic paste', 'Salt to taste'],
+    fullInstructions: '1. Marinate the chicken with yogurt and spices for 30 minutes.\n2. Heat butter in a pan and cook the marinated chicken pieces until golden brown.\n3. Remove the chicken and add tomato puree, ginger garlic paste, and garam masala to the pan.\n4. Simmer the sauce for 10 minutes until it thickens.\n5. Add the chicken back to the pan and stir in the heavy cream.\n6. Simmer for another 5 minutes. Serve hot with naan or rice.'
+  },
+  {
+    id: 4,
+    title: 'Noodle',
+    description: 'Soft wheat noodles served in a flavorful broth with fresh toppings.',
+    category: 'Asian',
+    time: '40 min',
+    servings: 3,
+    rating: 4.7,
+    image: 'https://blog.themalamarket.com/wp-content/uploads/2024/06/Vegetarian-pulled-noodles-lead-more-sat.jpg',
+    ingredients: ['200g wheat noodles', '4 cups chicken or vegetable broth', '1 bok choy, sliced', '1 soft boiled egg', '2 green onions, chopped', '1 tbsp soy sauce'],
+    fullInstructions: '1. Cook the noodles in a pot of boiling water, drain and set aside.\n2. In a separate pot, bring the broth to a simmer and add soy sauce.\n3. Add bok choy to the broth and cook for 2 minutes until slightly tender.\n4. Divide the cooked noodles into bowls.\n5. Pour the hot broth over the noodles.\n6. Top with a soft boiled egg and chopped green onions. Serve hot.'
+  },
+  {
+    id: 5,
+    title: 'Thakali Set',
+    description: 'A traditional Nepali meal with dal, rice, vegetable curry, and pickles.',
+    category: 'Nepali',
+    time: '45 min',
+    servings: 4,
+    rating: 4.9,
+    image: 'https://i.redd.it/81ep2qo2au101.jpg',
+    ingredients: ['1 cup basmati rice', '1/2 cup black lentils (dal)', '1 cup mixed vegetables', '2 tbsp ghee', '1 tsp cumin seeds', 'Tomato pickle for serving'],
+    fullInstructions: '1. Cook the basmati rice until fluffy.\n2. Pressure cook the black lentils with salt, turmeric, and water until soft.\n3. Temper the dal with ghee, cumin seeds, and dry red chilies.\n4. Prepare a simple vegetable curry using seasonal mixed vegetables.\n5. Serve the rice, dal, vegetable curry, and a side of spicy tomato pickle on a traditional brass plate.'
+  },
+  {
+    id: 6,
+    title: 'Butter Naan',
+    description: 'Soft, fluffy leavened flatbread baked in a tandoor and brushed with butter.',
+    category: 'Indian',
+    time: '45 min',
+    servings: 4,
+    rating: 4.9,
+    image: 'https://www.cookwithmanali.com/wp-content/uploads/2014/11/Soft-Homemade-Naan-500x500.jpg',
+    ingredients: ['2 cups all-purpose flour', '1/2 cup plain yogurt', '1 tsp sugar', '1/2 tsp baking powder', '1/4 tsp baking soda', '2 tbsp melted butter', 'Water as needed'],
+    fullInstructions: '1. In a bowl, mix flour, sugar, baking powder, baking soda, and salt.\n2. Add yogurt and mix well. Gradually add water to knead into a soft dough.\n3. Cover the dough and let it rest for 2 hours.\n4. Divide the dough into small balls and roll them into oval shapes.\n5. Cook the naan on a hot skillet until bubbles form, then flip and cook until golden brown spots appear.\n6. Brush generously with melted butter before serving.'
+  },
+  {
+    id: 7,
+    title: 'Kathi Roll',
+    description: 'Crispy paratha rolled with spiced fillings like paneer or chicken and fresh chutney.',
+    category: 'Indian',
+    time: '45 min',
+    servings: 4,
+    rating: 4.9,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQejZA0mbkWJWznFLFspGWlPmJeekEslVH8Rg&s',
+    ingredients: ['4 parathas or tortillas', '200g paneer or chicken cubes', '1 onion, thinly sliced', '1 bell pepper, sliced', '2 tbsp mint chutney', '1 tsp chaat masala', '1 tbsp oil'],
+    fullInstructions: '1. Heat oil in a pan and sauté the paneer or chicken cubes with some basic spices (chili powder, turmeric, salt) until cooked.\n2. Warm the parathas on a flat pan.\n3. Spread a layer of mint chutney on each paratha.\n4. Place a portion of the cooked filling in the center.\n5. Top with sliced onions and bell peppers, and sprinkle some chaat masala.\n6. Roll the paratha tightly and wrap the bottom half in foil or tissue paper.'
+  },
+  {
+    id: 8,
+    title: 'Paneer',
+    description: 'Tender cubes of paneer cooked in a rich, spiced tomato and onion gravy.',
+    category: 'Indian',
+    time: '45 min',
+    servings: 4,
+    rating: 4.9,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR5Y3dcDoY_QQ2u2Tab2FAoqvw0NLloex2aQ&s',
+    ingredients: ['250g paneer cubes', '2 large onions, finely chopped', '2 tomatoes, pureed', '1 tbsp ginger garlic paste', '1 tsp turmeric powder', '1 tsp coriander powder', '2 tbsp oil'],
+    fullInstructions: '1. Heat oil in a pan and lightly fry the paneer cubes until golden. Remove and set aside.\n2. In the same pan, add chopped onions and sauté until translucent.\n3. Add ginger garlic paste and cook for a minute.\n4. Add tomato puree, turmeric powder, coriander powder, and salt. Cook until oil separates from the masala.\n5. Add a little water to form a gravy and bring it to a boil.\n6. Add the fried paneer cubes to the gravy and simmer for 5 minutes. Serve hot.'
+  },
+];
